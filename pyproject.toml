@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "endwork"
+version = "0.1.0"
+description = ""
+authors = ["Ann Lyapunova <lord.letopisniy@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.2.1"
+black = "^25.1.0"
+isort = "^6.0.1"
+djangorestframework = "^3.16.0"
+python-dotenv = "^1.1.0"
+psycopg2-binary = "^2.9.10"
+pillow = "^11.2.1"
+djangorestframework-simplejwt = "^5.5.0"
+django-filter = "^25.1"
+celery = "^5.5.2"
+redis = "^6.1.0"
+requests = "^2.32.3"
+django-cors-headers = "^4.7.0"
+drf-yasg = "^1.21.10"
+coverage = "^7.8.1"
+stripe = "^12.1.0"
+eventlet = "^0.40.0"
+django-celery-beat = "^2.8.1"
+flake8 = "^7.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 119
+
+[tool.isort]
+line_length = 119
