@@ -26,6 +26,7 @@ stripe = "^12.1.0"
 eventlet = "^0.40.0"
 django-celery-beat = "^2.8.1"
 flake8 = "^7.2.0"
+djangorestframework-api-key = "^3.1.0"
 
 
 [build-system]
